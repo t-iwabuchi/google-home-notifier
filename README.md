@@ -3,7 +3,7 @@ Send notifications to Google Home
 
 #### Installation
 ```sh
-$ npm install google-home-notifier
+$ npm install git+https://github.com/t-iwabuchi/google-home-notifier#master
 ```
 
 #### Usage
@@ -29,7 +29,7 @@ The example uses ngrok so the server can be reached from outside your network.
 I tested with ifttt.com Maker channel and it worked like a charm.
 
 ```sh
-$ git clone https://github.com/noelportugal/google-home-notifier
+$ git clone https://github.com/t-iwabuchi/google-home-notifier
 $ cd google-home-notifier
 $ npm install
 $ node example.js
